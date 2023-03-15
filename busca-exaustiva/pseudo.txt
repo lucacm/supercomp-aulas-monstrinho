@@ -1,0 +1,8 @@
+// linhas 2-6: recursão
+mochila(I,C)
+    if I = 0 ou C = 0 pare!
+    com_i += v[i] + mochila({I-i}, C-p[i])
+    sem_i += mochila ({I-i}, C)
+    return max(com_i,sem_i)
+
+// o que fazer?
